@@ -11,9 +11,9 @@ function Hello() {
 	};
 
 };
-module.exports = Hello;
+
 //exports.Hello = Hello;
 
 // 可以用下面方法稍微简化
 // 这样就可以直接获得这个对象了：var Hello = require('./hello');
-
+module.exports = Hello;
